@@ -8,7 +8,7 @@ export const ethan = {
   "@type": "Person",
   name: "Ethan",
   description:
-    "Hi, I'm Ethan, an alumn of California State University, Fullerton and past software engineer intern. I'm interested in web development, open source, and Pokémon breeding and glitching.",
+    "Hi, I'm Ethan, an California State University, Fullerton alum and past software engineer intern. I'm interested in web development, open source, and Pokémon breeding and glitching.",
   identifier: ["etok", "ethanthatonekid"],
   url: "http://ethandavidson.com",
   sameAs: [
