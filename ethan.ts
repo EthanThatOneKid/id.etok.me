@@ -21,7 +21,18 @@ export const ethan = {
   height: "177 cm",
   birthDate: "2001-03-24",
   knowsLanguage: "en",
-  colleague: "https://0xd14.id/",
+  worksFor: {
+    "@type": "Organization",
+    "@id": "https://id.fart.tools/",
+  },
+  alumniOf: {
+    "@type": "Organization",
+    "@id": "https://acmcsuf.com/",
+  },
+  colleague: {
+    "@type": "Person",
+    "@id": "https://0xd14.id/",
+  },
 } as const satisfies Person;
 
 /**
