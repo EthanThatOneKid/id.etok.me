@@ -16,6 +16,8 @@ export const ethan = {
     "https://twitter.com/__etok__",
     "https://linkedin.com/in/etok",
     "https://blahaj.zone/@etok",
+    "https://producthunt.com/@etok",
+    "https://sendou.ink/u/etok",
   ],
   email: "mailto:ethan.r.davidson@gmail.com",
   height: "177 cm",
