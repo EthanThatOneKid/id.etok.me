@@ -6,10 +6,10 @@ import type { Graph, Person } from "schema-dts";
 export const ethan = {
   "@id": "https://id.etok.me/",
   "@type": "Person",
-  name: "Ethan",
+  name: ["Ethan", "EthanThatOneKid", "etok", "e14"],
+  identifier: "etok",
   description:
     "Hi, I'm Ethan, an California State University, Fullerton alum and past software engineer intern. I'm interested in web development, open source, and Pokémon breeding and glitching.",
-  identifier: ["etok", "ethanthatonekid"],
   url: "http://ethandavidson.com",
   sameAs: [
     "https://github.com/EthanThatOneKid",
