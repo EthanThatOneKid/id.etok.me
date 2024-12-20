@@ -1,23 +1,24 @@
 import type { Graph, Person } from "schema-dts";
 
 /**
- * ethan is a Person representing Ethan Davidson.
+ * etok is a Person representing Ethan Davidson.
  */
-export const ethan = {
+export const etok = {
   "@id": "https://id.etok.me/",
   "@type": "Person",
-  name: ["Ethan", "EthanThatOneKid", "etok", "e14"],
+  name: ["Ethan", "EthanThatOneKid", "Etok"],
   identifier: "etok",
   description:
-    "Hi, I'm Ethan, an California State University, Fullerton alum and past software engineer intern. I'm interested in web development, open source, and Pokémon breeding and glitching.",
-  url: "http://ethandavidson.com",
+    "Ethan Davidson, a California State University, Fullerton alum with a Bachelor of Science degree in Computer Science and former software engineering intern, is interested in web development, open-source, and Pokémon breeding and glitching.",
+  url: "https://ethandavidson.com/",
   sameAs: [
     "https://github.com/EthanThatOneKid",
-    "https://twitter.com/__etok__",
     "https://linkedin.com/in/etok",
+    "https://devpost.com/EthanThatOneKid",
+    "https://bsky.app/profile/etok.me",
     "https://blahaj.zone/@etok",
     "https://producthunt.com/@etok",
-    "https://sendou.ink/u/etok",
+    "https://twitter.com/__etok__",
   ],
   email: "mailto:ethan.r.davidson@gmail.com",
   height: "177 cm",
@@ -31,10 +32,16 @@ export const ethan = {
     "@type": "Organization",
     "@id": "https://acmcsuf.com/",
   },
-  colleague: {
-    "@type": "Person",
-    "@id": "https://0xd14.id/",
-  },
+  colleague: [
+    {
+      "@type": "Person",
+      "@id": "https://0xd14.id/",
+    },
+    {
+      "@type": "Person",
+      "@id": "https://id.johncarlomanuel.com/",
+    },
+  ],
 } as const satisfies Person;
 
 /**
@@ -42,5 +49,5 @@ export const ethan = {
  */
 export const graph = {
   "@context": "https://schema.org",
-  "@graph": [ethan],
+  "@graph": [etok],
 } as const satisfies Graph;
